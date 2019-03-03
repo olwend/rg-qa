@@ -1,0 +1,16 @@
+{
+  "name": "rg-qa",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest-puppeteer": "^4.0.0"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "devDependencies": {
+    "jest-environment-node": "^22.0.0",
+    "puppeteer": "^1.12.2"
+  }
+}
